@@ -7,7 +7,7 @@ var prefix = ("*");
 
 client.on("message", (message) => {
 
-    if(message.content === "créateur") {
+    if(message.content === prefix + "créateur") {
         message.channel.send("丂のｷ丂の#6229")
     }
 
